@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-primary-green: #0ec175;
+  --color-text-dark: #1a1a1a;
+  --color-text-gray: #6b7280;
+  --color-plate-yellow: #ffcc00;
+  --color-plate-blue: #003399;
+}
+
+@layer base {
+  body {
+    @apply bg-[#fafbfc] text-text-dark font-sans;
+    background-image: radial-gradient(circle at 50% 30%, rgba(14, 193, 117, 0.05) 0%, transparent 50%);
+  }
+}
